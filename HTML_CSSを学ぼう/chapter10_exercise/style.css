@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+  background-color: #ff9a4b;
+  height: 50px;
+}
+
+main {
+  width: 960px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #eeeeee;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  justify-content: center;
+  position: relative;
+}
+
+.step {
+  font-size: 12px;
+  width: 40px;
+  background-color: #ff9a4b;
+  position: absolute;
+}
+
+.step-text {
+  color: white;
+  text-align: center;
+}
+
+.image {
+  height: 150px;
+  background-size: cover;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.main-text {
+  padding: 10px;
+}
+
+h3 {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 11px;
+}
+
+.img1 {
+  background-image: url(img/flow01.png);
+}
+
+.img2 {
+  background-image: url(img/flow02.png);
+}
+
+.img3 {
+  background-image: url(img/flow03.png);
+}
+
+footer {
+  background-color: #aaaa;
+  height: 50px;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    height: 50px;
+  }
+
+  main {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .main-item {
+    width: 90%;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box2 {
+    margin-top: 20px;
+  }
+
+  .box3 {
+    margin-top: 20px;
+  }
+}
